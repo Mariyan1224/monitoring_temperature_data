@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" 
+             xmlns:viewmodel="clr-namespace:MonitoRing.ViewModel" 
+             xmlns:local="clr-namespace:MonitoRing.ViewModel"
+             x:DataType="viewmodel:ViewModel"
+             x:Class="MonitoRing.StatePage">
+    <StackLayout>
+        
+        <Frame BackgroundColor="#758A8A" Padding="15" CornerRadius="0">
+            <Label Text="Sensors Temperature Data" HorizontalTextAlignment="Center" TextColor="White" FontSize="30" AutomationProperties.IsInAccessibleTree="False"/>
+        </Frame>
+        <ScrollView>
+            <StackLayout>
+                <microcharts:ChartView x:Name="ChartView" 
+                                       HeightRequest="300" 
+                                       Chart="{Binding Chart, Mode=OneWay}"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+  
+</ContentPage>

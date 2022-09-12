@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoRing.Android", "MonitoRing.Android\MonitoRing.Android.csproj", "{6F332751-BFBD-4032-8437-9D6631F64439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoRing", "MonitoRing\MonitoRing.csproj", "{FBD3A582-1A70-47E3-96EF-E4BFC7539817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CB944D9-9D18-496E-9516-7CC6FB0FEF33}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F332751-BFBD-4032-8437-9D6631F64439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F332751-BFBD-4032-8437-9D6631F64439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F332751-BFBD-4032-8437-9D6631F64439}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F332751-BFBD-4032-8437-9D6631F64439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F332751-BFBD-4032-8437-9D6631F64439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F332751-BFBD-4032-8437-9D6631F64439}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FBD3A582-1A70-47E3-96EF-E4BFC7539817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD3A582-1A70-47E3-96EF-E4BFC7539817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD3A582-1A70-47E3-96EF-E4BFC7539817}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FBD3A582-1A70-47E3-96EF-E4BFC7539817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD3A582-1A70-47E3-96EF-E4BFC7539817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD3A582-1A70-47E3-96EF-E4BFC7539817}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEDA1CC9-C589-4421-870C-BE3B3F897215}
+	EndGlobalSection
+EndGlobal
